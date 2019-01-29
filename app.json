@@ -1,6 +1,6 @@
 {
   "id": "com.feibit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=2.*",
   "sdk": 2,
   "name": {
@@ -45,7 +45,7 @@
         "learnmode": {
           "image": "/drivers/FNB56-SKT1EHG1.2/assets/learn.svg",
           "instruction": {
-            "en": "Press the button on your device three times"
+            "en": "Hold down the button for 5 seconds or until it starts blinking"
           }
         }
       },
