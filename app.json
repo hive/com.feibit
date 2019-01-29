@@ -1,0 +1,61 @@
+{
+  "id": "com.feibit",
+  "version": "1.0.0",
+  "compatibility": ">=2.*",
+  "sdk": 2,
+  "name": {
+    "en": "FeiBit"
+  },
+  "description": {
+    "en": "Feibit Devices which are used by Nue/3A/Hui Home"
+  },
+  "category": [
+    "energy"
+  ],
+  "tags": {
+    "en": [ "feibit", "nue", "3a", "hui home", "hui", "smart plug", "zigbee plug", "zigbee", "plug"],
+    "nl": [ "feibit", "nue", "3a", "hui home", "hui", "smart plug", "zigbee plug", "zigbee", "plug"]
+  },
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Jamie Peake",
+    "email": "jamie.peake@gmail.com"
+  },
+  "drivers": [
+    {
+      "id": "FNB56-SKT1EHG1.2",
+      "name": {
+        "en": "Zigbee Smart Plug"
+      },
+      "class": "socket",
+      "capabilities": [
+        "onoff"
+      ],
+      "zigbee": {
+        "manufacturerName": "FeiBit",
+        "productId": [
+          "FNB56-SKT1EHG1.2"
+        ],
+        "deviceId": [0],
+        "profileId": 49246,
+        "learnmode": {
+          "image": "/drivers/FNB56-SKT1EHG1.2/assets/learn.svg",
+          "instruction": {
+            "en": "Press the button on your device three times"
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/FNB56-SKT1EHG1.2/assets/images/large.png",
+        "small": "/drivers/FNB56-SKT1EHG1.2/assets/images/small.png"
+      }
+    }
+  ]
+}
+
+
+

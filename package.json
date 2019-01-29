@@ -1,0 +1,14 @@
+{
+  "name": "com.feibit",
+  "version": "1.0.0",
+  "description": "Feibit Devices which are used by Nue/3A/Hui Home",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "homey-meshdriver": "^1.2.30"
+  }
+}
