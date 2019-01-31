@@ -1,0 +1,5 @@
+.gitattributes
+.homeyignore
+.gitignore
+package-lock.json
+*.sketch
