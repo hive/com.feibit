@@ -1,6 +1,6 @@
 {
   "id": "com.feibit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": ">=2.*",
   "sdk": 2,
   "name": {
@@ -9,6 +9,7 @@
   "description": {
     "en": "Feibit Devices which are used by Nue/3A/Hui Home"
   },
+  "brandColor": "#33338A",
   "category": [
     "energy"
   ],
@@ -25,6 +26,17 @@
     "name": "Jamie Peake",
     "email": "jamie.peake@gmail.com"
   },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "paypal.me/peakej"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/hive/com.feibit/issues"
+  },
+  "homeyCommunityTopicId": 8385,
   "drivers": [
     {
       "id": "FNB56-SKT1EHG1.2",
